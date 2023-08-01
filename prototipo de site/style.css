@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+html, body {
+    min-height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-image: url(imagens/fundos/fundo-header.jpg);
+    grid-area: header;
+    margin-bottom: 30px;
+    width: 100%;
+     
+}
+#image{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    object-position: bottom;
+ 
+}
+#texto{
+    position: absolute;
+    font-size: 5vh;
+    left: 50px;
+    top: 50%;
+    color: antiquewhite;
+}
+div.container{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 55vh 12vh 2px;
+    grid-template-areas: "header header" "footer footer";
+    width: 100%
+}
+        
+footer {
+    margin-top: 50em;
+    position:relative;
+    background-color: rgb(73, 2, 121);
+    color: #FFF;
+    width: 100%;
+    height: 50px;    
+    text-align: center;
+    line-height: 50px;
+}
+.nav-item {
+    margin: 20px;
+    
+}
+
+div.lugares{
+    display: inline-block;
+    border-radius: 5px;
+    width: 300px;
+    height: 100%;
+    margin-right: 10px;
+    margin-bottom: 60px;
+    margin-left: 25px;
+    background-repeat: no-repeat;
+    
+}
+a#consultar{
+    margin-top: 170px;
+    
+}
+div#grecia{
+    background-image: url(imagens/destinos/grecia/grecia_tam-p.jpg) ;
+}
+div#japao{
+    background-image: url(imagens/destinos/japao/japan_tam-p.jpg);
+    
+}
+div#maldivas{
+    background-image: url(imagens/destinos/maldivas/maldives_tam-p.jpg);
+}
+
+
+
